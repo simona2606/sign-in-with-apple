@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E94A0DD294B321A00DB6AA4 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E94A0DC294B321A00DB6AA4 /* WelcomeView.swift */; };
 		3EF0EBB82949EBDE005C7632 /* SignInWithAppleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0EBB72949EBDE005C7632 /* SignInWithAppleApp.swift */; };
 		3EF0EBBA2949EBDE005C7632 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0EBB92949EBDE005C7632 /* ContentView.swift */; };
 		3EF0EBBC2949EBDE005C7632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF0EBBB2949EBDE005C7632 /* Assets.xcassets */; };
@@ -14,6 +15,11 @@
 		3EF0EBC92949EBDE005C7632 /* SignInWithAppleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0EBC82949EBDE005C7632 /* SignInWithAppleTests.swift */; };
 		3EF0EBD32949EBDE005C7632 /* SignInWithAppleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0EBD22949EBDE005C7632 /* SignInWithAppleUITests.swift */; };
 		3EF0EBD52949EBDE005C7632 /* SignInWithAppleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0EBD42949EBDE005C7632 /* SignInWithAppleUITestsLaunchTests.swift */; };
+		3EF0EBE82949EC5F005C7632 /* FMProKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3EF0EBE72949EC5F005C7632 /* FMProKit */; };
+		3EF0EBEA2949EC73005C7632 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0EBE92949EC73005C7632 /* User.swift */; };
+		3EF0EBEC2949EC8B005C7632 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0EBEB2949EC8B005C7632 /* UserViewModel.swift */; };
+		3EF0EBEE2949ECBB005C7632 /* SignInButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0EBED2949ECBB005C7632 /* SignInButtonView.swift */; };
+		3EF0EBF02949ECCF005C7632 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0EBEF2949ECCF005C7632 /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E94A0DC294B321A00DB6AA4 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3EF0EBB42949EBDE005C7632 /* SignInWithApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInWithApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF0EBB72949EBDE005C7632 /* SignInWithAppleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleApp.swift; sourceTree = "<group>"; };
 		3EF0EBB92949EBDE005C7632 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,12 @@
 		3EF0EBCE2949EBDE005C7632 /* SignInWithAppleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignInWithAppleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF0EBD22949EBDE005C7632 /* SignInWithAppleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleUITests.swift; sourceTree = "<group>"; };
 		3EF0EBD42949EBDE005C7632 /* SignInWithAppleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EF0EBE12949EC1F005C7632 /* SignInWithApple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignInWithApple.entitlements; sourceTree = "<group>"; };
+		3EF0EBE92949EC73005C7632 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3EF0EBEB2949EC8B005C7632 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		3EF0EBED2949ECBB005C7632 /* SignInButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButtonView.swift; sourceTree = "<group>"; };
+		3EF0EBEF2949ECCF005C7632 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		3EF0EBF12949EFC9005C7632 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF0EBE82949EC5F005C7632 /* FMProKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,7 @@
 		3EF0EBAB2949EBDE005C7632 = {
 			isa = PBXGroup;
 			children = (
+				3EF0EBF12949EFC9005C7632 /* README.md */,
 				3EF0EBB62949EBDE005C7632 /* SignInWithApple */,
 				3EF0EBC72949EBDE005C7632 /* SignInWithAppleTests */,
 				3EF0EBD12949EBDE005C7632 /* SignInWithAppleUITests */,
@@ -94,8 +109,12 @@
 		3EF0EBB62949EBDE005C7632 /* SignInWithApple */ = {
 			isa = PBXGroup;
 			children = (
+				3EF0EBE52949EC3F005C7632 /* UserSettings */,
+				3EF0EBE22949EC2D005C7632 /* Model */,
+				3EF0EBE42949EC3B005C7632 /* View */,
+				3EF0EBE32949EC34005C7632 /* ViewModel */,
+				3EF0EBE12949EC1F005C7632 /* SignInWithApple.entitlements */,
 				3EF0EBB72949EBDE005C7632 /* SignInWithAppleApp.swift */,
-				3EF0EBB92949EBDE005C7632 /* ContentView.swift */,
 				3EF0EBBB2949EBDE005C7632 /* Assets.xcassets */,
 				3EF0EBBD2949EBDE005C7632 /* Preview Content */,
 			);
@@ -127,6 +146,40 @@
 			path = SignInWithAppleUITests;
 			sourceTree = "<group>";
 		};
+		3EF0EBE22949EC2D005C7632 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3EF0EBE92949EC73005C7632 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3EF0EBE32949EC34005C7632 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3EF0EBEB2949EC8B005C7632 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3EF0EBE42949EC3B005C7632 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EF0EBB92949EBDE005C7632 /* ContentView.swift */,
+				3EF0EBED2949ECBB005C7632 /* SignInButtonView.swift */,
+				3E94A0DC294B321A00DB6AA4 /* WelcomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3EF0EBE52949EC3F005C7632 /* UserSettings */ = {
+			isa = PBXGroup;
+			children = (
+				3EF0EBEF2949ECCF005C7632 /* UserSettings.swift */,
+			);
+			path = UserSettings;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +196,9 @@
 			dependencies = (
 			);
 			name = SignInWithApple;
+			packageProductDependencies = (
+				3EF0EBE72949EC5F005C7632 /* FMProKit */,
+			);
 			productName = SignInWithApple;
 			productReference = 3EF0EBB42949EBDE005C7632 /* SignInWithApple.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +271,9 @@
 				Base,
 			);
 			mainGroup = 3EF0EBAB2949EBDE005C7632;
+			packageReferences = (
+				3EF0EBE62949EC5F005C7632 /* XCRemoteSwiftPackageReference "FMProKit" */,
+			);
 			productRefGroup = 3EF0EBB52949EBDE005C7632 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +317,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EF0EBBA2949EBDE005C7632 /* ContentView.swift in Sources */,
+				3EF0EBF02949ECCF005C7632 /* UserSettings.swift in Sources */,
+				3EF0EBEC2949EC8B005C7632 /* UserViewModel.swift in Sources */,
 				3EF0EBB82949EBDE005C7632 /* SignInWithAppleApp.swift in Sources */,
+				3EF0EBEA2949EC73005C7632 /* User.swift in Sources */,
+				3EF0EBEE2949ECBB005C7632 /* SignInButtonView.swift in Sources */,
+				3E94A0DD294B321A00DB6AA4 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SignInWithApple/SignInWithApple.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SignInWithApple/Preview Content\"";
@@ -425,6 +490,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,6 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SignInWithApple/SignInWithApple.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SignInWithApple/Preview Content\"";
@@ -454,6 +521,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +651,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3EF0EBE62949EC5F005C7632 /* XCRemoteSwiftPackageReference "FMProKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/The-Pier/FMProKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3EF0EBE72949EC5F005C7632 /* FMProKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3EF0EBE62949EC5F005C7632 /* XCRemoteSwiftPackageReference "FMProKit" */;
+			productName = FMProKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3EF0EBAC2949EBDE005C7632 /* Project object */;
 }

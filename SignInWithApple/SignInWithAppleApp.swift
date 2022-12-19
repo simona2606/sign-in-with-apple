@@ -6,12 +6,26 @@
 //
 
 import SwiftUI
+import FMProKit
 
 @main
+
 struct SignInWithAppleApp: App {
+    @StateObject var api = FMODataAPI("napoli.fm-testing.com", "HanabiTestDB", "Admin", "harrypotter")
+    @ObservedObject var userSettings = UserSettings()
+    @ObservedObject var userViewModel = UserViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+        if userSettings.id == "" {
+            ContentView(userSettings: userSettings)
+                    .environmentObject(api)
+
+            } else {
+                WelcomeView(userViewModel: userViewModel, userSettings: userSettings)
+
+            }
+            
         }
     }
 }
